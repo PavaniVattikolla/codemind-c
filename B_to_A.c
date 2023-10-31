@@ -3,8 +3,10 @@ int main()
 {
     int i,a,b;
     scanf("%d%d",&a,&b);
-    for(i=b;i>=a;i--)
+    i=b;
+    while(i>=a)
     {
         printf("%d ",i);
+        i--;
     }
 }
